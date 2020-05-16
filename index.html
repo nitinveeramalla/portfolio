@@ -1,12 +1,13 @@
 <html>
     <head>
-        <title>Resume website Template</title>
+        <title>Nitin Veeramalla Resume</title>
         <link rel= "stylesheet" href="style.css">
-       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+         <link rel= "stylesheet" href = "aos.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script> 
-   <link rel= "stylesheet" href = "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">     
+   <link rel= "stylesheet" href = "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         
@@ -59,10 +60,10 @@
             
             <div class="about container" id ="about">
             <div class="row">
-               <div class= "col-md-6 text-center">
+               <div class= "col-md-6 text-center" data-aos="fade-right">
                    <img src="images/user1.jpg" class="profile-img">
                </div> 
-                  <div class="col-md-6">
+                  <div class="col-md-6" data-aos="fade-left">
                    <h3>Who Am I?</h3>
                    <p>
                       My name is Maciek, and I’m a career writer. My job is to provide job seekers with expert advice on career-related topics. I read a lot and consult recruiting professionals so you don’t have to. I show you how to hack the recruitment process, create a job-winning resume, ace the job interview, and... introduce yourself, among others. 
@@ -74,13 +75,16 @@
                            <div clas="progress-bar" style= "width:80%; background-color: black">80%</div>
                         </div>
                     </div>
-                    
+                      
+                    <div class="skills-bar">
                           <p>problem solving skills</p>
                        <div class="progress">
                        <div clas="progress-bar" style= "width:75%;background-color: black">75%
                         </div>
-                    </div>
-                                                                
+                        </div>
+                      </div>
+                      
+                    <div class="skills-bar">
                     <p>Graphic Design</p>
                        <div class="progress">
                        <div clas="progress-bar" style= "width:50%;background-color: black">50%
@@ -88,7 +92,6 @@
                     </div>
                     </div>                                             
                 </div>
-            </div>
             </div>
 <!-----------------------------------Social Icons---------------------->
             <div class="social-icons">
@@ -107,7 +110,7 @@
        <div class="resume" id="resume">
            <div class="container">
                <div class="row">
-                   <div class="col-md-6">
+                   <div class="col-md-6" data-aos="fade-right">
                    <h3 class = "text-center">My Experiences</h3>
                    <ul class="timeline">
                        <li>
@@ -144,7 +147,7 @@
                    </ul>
                </div>
                
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-left">
                    <h3 class = "text-center">My Education</h3>
                    <ul class="timeline">
                        <li>
@@ -180,7 +183,7 @@
                 <h1 class="text-center">My Offered Services</h1>
                 <p class="text-center">Subscribe to our youtube channel link in descripition.hack the recruitment process, create a job-winning resume, ace the job interview, and... introduce yourself, among others.</p>
                  
-                <div class="row">
+                <div class="row" data-aos="zoom-in">
                     <div class="col-md-4">
                         <div class="services-box ">
                             <i class="fa fa-laptop"></i><span>Software Development</span>
@@ -189,14 +192,14 @@
     
                     </div>
                     
-                    <div class="col-md-4">
+                    <div class="col-md-4" data-aos="zoom-in">
                         <div class="services-box ">
                             <i class="fa fa-rocket"></i><span>Graphics</span>
                             <p class="text-center">Subscribe to our youtube channel link in descripition.hack the recruitment process, create a job-winning resume, ace the job interview, and... introduce yourself, among others.</p>
                         </div>
                     </div>
                     
-                    <div class="col-md-4">
+                    <div class="col-md-4" data-aos="zoom-in">
                         <div class="services-box ">
                            <i class="fa fa-users"></i><span>Managment</span>
                             <p class="text-center">Subscribe to our youtube channel link in descripition.hack the recruitment process, create a job-winning resume, ace the job interview, and... introduce yourself, among others.</p>
@@ -237,9 +240,19 @@
         <!------------------------Smooth Scroll--------------------------->
         <script src="smooth-scroll.js"></script>
         
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script src="aos.js"></script>
+        
         <script>
 	var scroll = new SmoothScroll('a[href*="#"]');
 </script>
+        
+        <script type="text/javascript">
+            AOS.init({
+                duration: 2000,
+            });
+        
+        </script>
    
    
     </body>
