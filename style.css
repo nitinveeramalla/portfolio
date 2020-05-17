@@ -330,7 +330,7 @@ services h1{
 .contact{
    
     padding-top: 50px;
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/contact.jpg);
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/Contact.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
