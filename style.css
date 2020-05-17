@@ -85,7 +85,7 @@ bottom: 30px;
 
 .about{
     padding-top: 100px;
-    margin-bottom: -130px;
+    margin-bottom: -100px;
 }
 
 .profile-img{
@@ -155,12 +155,52 @@ top: 0;
 .skills{
     
     margin-top: 100px;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
     background: #f9f9f9;
     
 }
 
 .skills h3
+{
+    margin-bottom: 50px;
+}
+
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.wrapper h2{
+    text-align: center;
+    font-size: 50px;
+    margin: 5% 0 0;
+    padding: 0;
+}
+
+.skills{
+    margin-top: 5%;
+    
+}
+
+.single-skill{
+    width: 30%;
+    margin: 0 15px;
+    float: left;
+    text-align: center;
+}
+
+
+/*--------------------------------Resume-------------------------*/
+
+.resume{
+    
+    margin-top: -150px;
+    padding-bottom: 30px;
+    background: #fff;
+    
+}
+
+.resume h3
 {
     margin-bottom: 50px;
 }
@@ -215,60 +255,6 @@ top: 0;
     height: 20px;
     z-index: 1;
 }
-.progress{
-    
-    border-radius: 16px !important;
-    margin-bottom: 10px;
-    color: #fff;
-     text-align: center;
-}
-
-.progress-bar{
-    
-    border-radius: 16px;
-    background-color: red;
-    
-}
-
-/*--------------------------------Resume-------------------------*/
-
-.resume{
-    
-    margin-top: -200px;
-    padding-bottom: 30px;
-    background: #fff;
-    
-}
-
-.resume h3
-{
-    margin-bottom: 50px;
-}
-
-.wrapper{
-    width: 1170px;
-    margin: 0 auto;
-}
-
-.wrapper h2{
-    text-align: center;
-    font-size: 50px;
-    margin: 5% 0 0;
-    padding: 0;
-}
-
-.skills{
-    margin-top: 5%;
-    
-}
-
-.single-skill{
-    width: 30%;
-    margin: 0 10px;
-    float: left;
-    text-align: center;
-}
-
 /*----------------------services------------------*/
 
 .services{
