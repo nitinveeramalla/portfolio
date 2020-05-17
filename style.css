@@ -94,7 +94,7 @@ bottom: 30px;
 
 .nav-bar{
 
-top: 0;
+    top: 0;
     position: sticky;
     z-index: 2;
 
@@ -112,7 +112,7 @@ top: 0;
 
 .nav-bar .fa-bars{
     
-    font-size: 35px;
+    font-size: 45px;
     color: #fff;
     
 }
@@ -255,10 +255,64 @@ top: 0;
     height: 20px;
     z-index: 1;
 }
+
+
+
+/*----------------------Artwork------------------*/
+
+.Artwork{
+    background: #f9f9f9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+Artwork h1{
+    margin-bottom: 15px;
+}
+
+    .slider {
+        width: 70%;
+        margin: 100px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+    
+    .slick-active {
+      opacity: .3;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
+.slick-dots li button{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+slick-dots{
+    bottom: 65px;
+}
+
 /*----------------------services------------------*/
 
 .services{
-    background: #f9f9f9;
+    background: #fff;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -268,7 +322,7 @@ services h1{
 
 .services-box{
     
-    background: #fff;
+    background: #f9f9f9;
     padding: 10px;
     margin-top: 20px;
     border-top-right-radius: 50px;
