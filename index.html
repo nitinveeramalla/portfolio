@@ -1,6 +1,7 @@
 <html>
     <head>
         <title>Nitin Veeramalla Resume</title>
+        <link rel= "stylesheet" href="progresscircle.css">
         <link rel= "stylesheet" href = "aos.css">
         <link rel= "stylesheet" href="style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -44,6 +45,9 @@
                     <a class="nav-link" href="#about">About me</a>
                   </li>
                   <li class="nav-item">
+                    <a class="nav-link" href="#Skills">Skills</a>
+                  </li>
+                  <li class="nav-item">
                     <a class="nav-link" href="#resume">Resume</a>
                   </li>
                   <li class="nav-item">
@@ -66,33 +70,42 @@
                   <div class="col-md-6" data-aos="fade-left">
                    <h3>Who Am I?</h3>
                    <p>
-                      My name is Maciek, and I’m a career writer. My job is to provide job seekers with expert advice on career-related topics. I read a lot and consult recruiting professionals so you don’t have to. I show you how to hack the recruitment process, create a job-winning resume, ace the job interview, and... introduce yourself, among others. 
-                   </p>
-                   
-                   <div class="skills-bar">
-                       <p>programming Skills</p>
-                       <div class="progress">
-                           <div clas="progress-bar" style= "width:80%; background-color: black">80%</div>
+                      Hi! I am Nitin Veermalla an Undergraduate student from GITAM Uiniversity Majoring in Computer Science and Enigineering. I am a software developer and apart time Graphic designer. I a quick learner with full of confidence who can mold easily to all work environments.<br />
+                       I was a team lead in a Student club called Kalakriti(Graphic design team) during my Undergraduate days. I also worked at an NGO called as TechSeva as an Executive Member.<br />
+                       Comming to my Graphic Designing Skills I was one of the founding members of an E-magazine in college called "TQK - The Quest of Knowledege" and also worked as a graphic designer. I had provided several logo's for ametuer Photographers and dancers for there professional use.<br />
+                       For any queries or wat to have Conversation with me feel free to contact me given below.
+                       For any queries or wat to have Conversation with me feel free to contact me given below.
+                   </p><br><br>
+                   </div>
+                </div>
+                </div>
+            
+            
+<!-------------------------------Skills------------------------------------------------------>            
+            
+            
+                <div class="skills" id="skills">
+            <div class="container"><br><br>
+                <h1 class="text-center">My Skills</h1>
+                <div class="row" data-aos="zoom-in">
+                    <div class="col-md-4">
+                       <div class="single-skill">
+                       <p>programming skills</p>
+                       <div class="circlechart" data-percentage="80"></div>
                         </div>
-                    </div>
-                      
-                    <div class="skills-bar">
+                
+                    <div class="single-skill">
                           <p>problem solving skills</p>
-                       <div class="progress">
-                       <div clas="progress-bar" style= "width:75%;background-color: black">75%
-                        </div>
-                        </div>
+                        <div class="circlechart" data-percentage="75"></div>
                       </div>
                       
-                    <div class="skills-bar">
+                    <div class="single-skill">
                     <p>Graphic Design</p>
-                       <div class="progress">
-                       <div clas="progress-bar" style= "width:50%;background-color: black">50%
-                        </div>
-                    </div>
+                    <div class="circlechart" data-percentage="50"></div>
                     </div>                                             
-                </div>
+                    </div>
             </div>
+                    </div>
             </div>
 <!-----------------------------------Social Icons---------------------->
             <div class="social-icons">
@@ -111,6 +124,7 @@
            <div class="container">
                <div class="row">
                    <div class="col-md-6" data-aos="fade-right">
+                       <br><br>
                    <h3 class = "text-center">My Experiences</h3>
                    <ul class="timeline">
                        <li>
@@ -148,6 +162,7 @@
                </div>
                
                 <div class="col-md-6" data-aos="fade-left">
+                    <br><br>
                    <h3 class = "text-center">My Education</h3>
                    <ul class="timeline">
                        <li>
@@ -178,7 +193,8 @@
        </div>  
        
                                          
-        <!-----------------------------------Services----------------------> <div class="services" id="services">
+        <!-----------------------------------Services----------------------> 
+            <div class="services" id="services">
             <div class="container">
                 <h1 class="text-center">My Offered Services</h1>
                 <p class="text-center">Subscribe to our youtube channel link in descripition.hack the recruitment process, create a job-winning resume, ace the job interview, and... introduce yourself, among others.</p>
@@ -247,11 +263,18 @@
 	var scroll = new SmoothScroll('a[href*="#"]');
 </script>
         
+        <!------------------------AOS fade Animations--------------------------->
         <script type="text/javascript">
             AOS.init({
                 duration: 2000,
             });
+        </script>
         
-        </script>   
+        <!------------------------progress Circle--------------------------->
+         <script type="text/javascript" src="progresscircle.js"></script>
+        <script type="text/javascript">
+        $(function(){$('.circlechart').circlechart();});
+        </script>
+        
     </body>
 </html>
