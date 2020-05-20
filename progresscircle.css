@@ -13,9 +13,8 @@
  */
 
 .circle-chart {
-  width: 200px;
-  height: 200px;
-  font-weight: bold;
+  width: 150px;
+  height: 150px;
 }
 
 .circle-chart__circle {
@@ -23,7 +22,7 @@
   stroke-width: 2;
   stroke-linecap: square;
   fill: none;
-  animation: circle-chart-fill 4s reverse; /* 1 */ 
+  animation: circle-chart-fill 2s reverse; /* 1 */ 
   transform: rotate(-90deg); /* 2, 3 */
   transform-origin: center; /* 4 */
 }
